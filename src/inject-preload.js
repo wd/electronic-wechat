@@ -2,6 +2,7 @@
 const ipcRenderer = require('electron').ipcRenderer;
 const webFrame = require('web-frame');
 const menu = require('./menu.js');
+const shortcuts = require('./shortcuts.js');
 
 const lock = (object, key, value) => Object.defineProperty(object, key, {
   get: () => value,

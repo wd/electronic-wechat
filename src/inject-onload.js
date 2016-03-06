@@ -67,6 +67,18 @@ injectBundle.wechatCSS = `
   `;
 
 injectBundle.osxCSS = `
+    html, body {
+      font-family: "pingfang sc";
+    }
+
+    div.box_ft {
+      height: 130px !important;
+    }
+
+    #editArea {
+      height: 34px;
+    }
+
     div.header div.avatar img.img {
       width: 24px;
       height: 24px;
